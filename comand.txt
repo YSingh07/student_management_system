@@ -1,0 +1,3 @@
+javac -cp "lib/postgresql-42.7.13.jar" -d out src\Main.java src\model\Student.java src\model\Subject.java src\model\Mark.java src\service\StudentService.java src\service\SubjectService.java src\service\MarkService.java src\database\DBConnection.java src\ui\AdminDashboard.java src\ui\LoginFrame.java src\ui\TeacherDashboard.java src\service\LoginService.java src\model\User.java
+
+java -cp "out;resources;lib/postgresql-42.7.13.jar" ui.LoginFrame
